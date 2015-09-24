@@ -1,0 +1,5 @@
+int a, b, c;
+a=8/4;
+b=a+3;
+c=a+b;
+printf("Les trois valeurs sont %d, %d, %d", a,b,c);
