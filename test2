@@ -1,4 +1,4 @@
-float largeur, longueur, perimetre
+float largeur, longueur, perimetre, surface;
 
 printf("Veuillez introduire une mesure de largeur:\n");
 scanf("%f", largeur);
@@ -6,3 +6,5 @@ printf("Veuillez introduire une mesure de longueur:\n");
 scanf("%f", longueur);
 perimetre = (largeur+longueur)*2
 printf("Le perimetre vaut %f", perimetre);
+surface = longueur*largeur
+printf("La surface vaut %f", surface);
